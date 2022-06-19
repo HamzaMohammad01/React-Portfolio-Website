@@ -4,12 +4,14 @@
     
 }
 
+
 .header {
     border-bottom-left-radius: var(--footHeadRadi);
     border-bottom-right-radius: var(--footHeadRadi);
     background: var(--themeGradient);
     position: relative;
     bottom: 2em;
+    max-width: 90vw;
     
 }
 
