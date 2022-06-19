@@ -7,8 +7,10 @@ class Footer extends Component {
 	render() {
 		return (
 			<footer>
-				&#169; Hamza Mohammad {getTime.getFullYear()}. All Rights
-				Reserved
+				<div className="footerText">
+					&#169; Hamza Mohammad {getTime.getFullYear()}. All Rights
+					Reserved
+				</div>
 			</footer>
 		);
 	}

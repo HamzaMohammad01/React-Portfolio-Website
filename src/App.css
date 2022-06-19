@@ -42,3 +42,9 @@ body {
     padding: 2em;
     box-sizing: border-box;
 }
+
+@media screen and (max-width: 390px) {
+  body {
+    margin: 0;
+  }
+}

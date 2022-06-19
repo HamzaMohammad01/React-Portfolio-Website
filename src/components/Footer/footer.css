@@ -13,3 +13,22 @@ footer {
 
     
 }
+
+@media screen and (max-width: 390px) {
+    footer {
+        display: flex;
+        background: linear-gradient(to right, rgb(0, 60, 255), rgb(0, 149, 255));;
+        height: 10vh;
+        width: 95vw;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        border-top-right-radius: var(--footHeadRadi);
+        border-top-left-radius: var(--footHeadRadi);
+    }
+
+    .footerText {
+        font-size: 13px;
+    }
+}
