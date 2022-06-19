@@ -1,0 +1,76 @@
+:root {
+    --homeGradient: linear-gradient(45deg, rgb(244, 129, 240), rgb(123, 0, 255))
+}
+
+.homeCoverImg {
+    height: 75vh;
+    border-radius: var(--radius);
+    margin-left: 3em;
+    transition: all 0.2S linear;
+}
+
+.homeCoverImg:hover {
+    transform: scale(1.05);
+}
+
+.flex1 {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    row-gap: 5px;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    left: 300px;
+    border-radius: var(--radius);
+    padding: 17vh 30px 17vh 30px;
+    background: var(--homeGradient);
+}
+
+
+.l1 {
+    font-weight: 500;
+    font-size: 50px;
+    color: white;
+}
+.l2 {
+    color: white;
+    font-weight: 500;
+    font-size: 40px;
+}
+.l3 {
+    font-weight: 700;
+    font-size: 60px;
+    background: rgb(255, 255, 0);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.l4 {
+    font-weight: 800;
+    font-size: 55px;
+    background: linear-gradient(to right, rgb(0, 60, 255), rgb(0, 149, 255));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.btn-mam {
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 900;
+    margin-top: 30px;
+    transition: all 500ms cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.flexEnd {
+    display: flex;
+    justify-content:flex-end;
+}

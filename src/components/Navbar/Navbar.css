@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fascinate&display=swap');
+:root {
+    --footHeadRadi: 100em
+    
+}
+
+.header {
+    border-bottom-left-radius: var(--footHeadRadi);
+    border-bottom-right-radius: var(--footHeadRadi);
+    background: var(--themeGradient);
+    position: relative;
+    bottom: 2em;
+    
+}
+
+.logo {
+
+
+    text-decoration: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 30px 0px 50px 0px;
+    background: linear-gradient(to right, red ,40%, yellow);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    transition: transform 0.25s linear;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.logo:hover {
+    transform: scale(1.1)
+    
+}
+
+
+.navUl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 1.25em;
+}
+
+.navLi {
+    list-style: none;
+}
+
+
+
+.navItems {
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+    font-size: 25px;
+    transition: all 100ms linear;
+
+}
+
+.navItems:hover {
+    border: 2px solid white;
+    padding: 7px;
+    border-radius: 30px;
+}

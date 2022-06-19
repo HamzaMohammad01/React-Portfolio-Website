@@ -1,0 +1,22 @@
+:root {
+    --blogBorderRadius: 15px
+}
+
+.form {
+    display: grid;
+    row-gap: 10px;
+    padding: 20px;
+    border-radius: 15px;
+    background: var(--homeGradient);
+    align-content:inherit;
+}
+
+.email {
+    border-radius: var(--blogBorderRadius);
+    border: none;
+    padding: 10px;
+}
+
+.email:focus {
+    outline-color: #719ECE;
+}
